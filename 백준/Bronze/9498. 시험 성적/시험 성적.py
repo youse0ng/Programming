@@ -2,12 +2,11 @@ a = int(input())
 
 if 90<=a<=100:
   print('A')
-elif 80<=a<90:
+elif 80<=a:
   print('B')
-elif 70<=a<80:
+elif 70<=a:
   print('C')
-elif 60<=a<70:
+elif 60<=a:
   print('D')
 else:
   print('F')
- 
