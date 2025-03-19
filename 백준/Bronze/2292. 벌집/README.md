@@ -28,3 +28,5 @@
 
  <p>입력으로 주어진 방까지 최소 개수의 방을 지나서 갈 때 몇 개의 방을 지나는지 출력한다.</p>
 
+![image](https://github.com/user-attachments/assets/a79c19dd-1f94-449d-8c8d-c256c17a2824)
+1칸씩 멀어질 수록 6*i(i=1,2,3,4,5...)씩 늘어간다.
