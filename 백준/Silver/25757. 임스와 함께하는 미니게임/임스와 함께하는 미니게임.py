@@ -1,12 +1,13 @@
 # 최대 몇번 플레이할 수 있는가?
 # for문을 돌면서 already_played에 있는 건 플레이에 참여 X
 # Y:2,F:3,O:4
-N,game = input().split()
+import sys
+N,game = sys.stdin.readline().split()
 plays = 0
 already_played = set()
 on_game_player = []
 for _ in range(int(N)):
-    player = input()
+    player = sys.stdin.readline()
     if player in already_played:
         continue
     else:
